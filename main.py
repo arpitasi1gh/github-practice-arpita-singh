@@ -8,4 +8,6 @@
 # Step 5: echo "# Line 01" < README.md  ;  echo "## Line 02 To Not Replace Previous Line" << README.md
 # Step 6: ..............................;  git push --set-upstream origin feature/my-profile
 
+# Other Useful Git Command Line: git log --oneline (View commit history); git diff (View differences before committing); git remote -v (View remote repositories); git reset --soft HEAD~1 (Undo last commit but keep changes); git reset --hard HEAD~1 (Undo last commit and discard changes (careful!)); cd / mkdir / touch;
+
 print("Hello World!")
